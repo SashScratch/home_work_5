@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css?family=Arvo:regular,italic,700,700italic&display=swap&subset=cyrillic-ext");
+
+@font-face {
+	font-family: "Pobeda";
+	src: url("../fonts/Pobeda-Regular.woff2") format("woff2"), url("../fonts/Pobeda-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Pobeda";
+	src: url("../fonts/Pobeda-Bold.woff2") format("woff2"), url("../fonts/Pobeda-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px;
+}
+body {
+	font-family: "Arvo";
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	background-color: rgb(214, 209, 209);
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 30px;
+	margin: 50px;
+}
+
+h2 {
+	font-weight: 600;
+	font-size: 25px;
+}
+
+h3 {
+	font-weight: 700;
+	font-size: 25px;
+	background-color: dimgray;
+	margin: 0px auto;
+	width: 500px;
+	text-align: center;
+}
+
+h4 {
+	font-weight: 700;
+	font-size: 30px;
+	margin: 50px;
+}
+
+.caption {
+	font-weight: 400;
+	font-size: 20px;
+	margin: 0px 0px 50px 0px;
+}
+
+.block {
+	font-style: italic;
+	list-style: square inside;
+	text-decoration: underline;
+}
+
+.block2 {
+	font-style: oblique;
+	list-style: circle;
+	text-transform: capitalize;
+	text-align: left;
+	margin: 20px;
+}
+
+.block3 {
+	font-style: oblique;
+	list-style: circle;
+	text-transform: capitalize;
+	text-align: left;
+	margin: 0 30px 50px auto;
+	width: 50%;
+}
+
+p {
+	background-color: darkslategray;
+	font-family: "Pobeda";
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0px 0px 50px 0px;
+	padding: 30px;
+}
+
+.box {
+	background-color: rgb(36, 35, 35);
+	color: white;
+	margin: 0px 0px 50px 30px;
+	padding: 50px;
+	width: 200px;
+}
+
+.color1 {
+	color: darkred;
+	font-weight: 700;
+}
+
+.color2 {
+	color: white;
+	font-weight: 700;
+}
+
+.color3 {
+	color: darkgreen;
+	font-weight: 700;
+}
+
+.color4 {
+	color: darkslateblue;
+	font-weight: 700;
+}
+
+.content {
+	background-color: darkslateblue;
+	max-height: 150px;
+	margin: 0px 0px 50px 0px;
+	overflow: auto;
+}
+
+.image {
+	margin: 0px 0px 50px 200px;
+	background: green;
+	padding: 30px;
+}
+
+.page {
+	background: rgb(1, 80, 1);
+	margin: 30px 0px 30px 30px;
+}
+
+.raw {
+	background-color: honeydew;
+	color: darkslategray;
+	font-family: "Arial";
+}
+
+.text1 span {
+	display: block;
+}
+
+.text1 {
+	margin-bottom: 50px;
+}
+
+.text2 {
+	display: inline-block;
+}
+.text2-1 {
+	max-width: 200px;
+	max-height: 200px;
+	padding: 15px;
+	display: inline-block;
+	background-color: dodgerblue;
+}
+
+.link {
+	display: inline-block;
+	margin-bottom: 30px;
+	color: black;
+}
+
+.text4 {
+	font-size: 10px;
+	margin: 0px 0px 30px 0px;
+}
+.text4 p {
+	display: inline-block;
+	max-width: 100px;
+	background-color: rgba(214, 154, 24, 0.308);
+	padding: 10px;
+}
+
+.text4 p:not(:last-child) {
+	margin-right: 30px;
+}
+
+.text5-1 {
+	padding: 30px;
+	background-color: rgba(213, 247, 244, 0.507);
+	max-width: 500px;
+}
+
+.text5-2 {
+	padding: 30px;
+	background-color: rgba(208, 240, 128, 0.596);
+	max-width: 400px;
+	margin-top: -55px;
+}
+
+.text6-1 {
+	display: block;
+	max-height: 200px;
+	background-color: rgba(27, 208, 240, 0.767);
+	overflow: auto;
+}
